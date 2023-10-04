@@ -1,0 +1,28 @@
+
+
+.topnavigation {
+    background-color: #333; 
+    color: #fff; 
+    padding: 10px 0; 
+  }
+  
+  .topnavigation ul {
+    list-style: none; 
+    display: flex; 
+    justify-content: space-around; 
+  }
+  
+  .topnavigation ul li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .topnavigation ul li a {
+    text-decoration: none;
+    color: #fff; 
+  }
+  
+  .topnavigation ul li a:hover {
+    text-decoration: underline;
+  }
+  
