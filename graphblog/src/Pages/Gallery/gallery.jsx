@@ -9,6 +9,9 @@ export const Gallery = () => {
       queryKey: ["giveMeTheGallery"],
       queryFn: async () => request(import.meta.env.VITE_PUBLIC_URL_ID, getGallery),
     });
+    console.log(data)
+
+
     if (isLoading) {
       return <p>Loading... </p>;
     }
@@ -18,7 +21,13 @@ export const Gallery = () => {
     }
   
     return (
-    <img src = {data.galleries[0].dog.url} alt='cutedogs'/>
+      <div>
+        {data.galleries.map((gallery, index) => (
+          <div key={index}>
+            <img src={gallery.dog.url} alt={`Dog ${index + 1}`} />
+          </div>
+        ))}
+      </div>
     );
   };
 
