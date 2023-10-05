@@ -1,28 +1,25 @@
-import React from 'react';
+import {request}  from 'graphql-request'
 import { useQuery } from "@tanstack/react-query";
-import { GraphQLClient } from 'graphql-request';
-import request from "graphql-request";
 import { Link, useParams } from "react-router-dom";
-// import { getGallerys } from "../Query/getGallery";
+import { getGallery } from "../../Queries/getGallery";
 
 export const Gallery = () => {
 
-  const { id } = useParams();
-  const { data, isLoading, error } = useQuery({
-    queryKey: ["gallery"],
-    queryFn: async () =>
-      request(
-        "",
-        getGallery,
-        { personId: id }
-      ),
-  });
-
-  return (
-    
-<h1>Gallery page here</h1>
-
-  );
-};
+    const { data, isLoading, error } = useQuery({
+      queryKey: ["giveMeTheGallery"],
+      queryFn: async () => request(import.meta.env.VITE_PUBLIC_URL_ID, getGallery),
+    });
+    if (isLoading) {
+      return <p>Loading... </p>;
+    }
+  
+    if (error) {
+      return <p>Error: {error.message}</p>;
+    }
+  
+    return (
+    <img src = {data.galleries[0].dog.url} alt='cutedogs'/>
+    );
+  };
 
 export default Gallery;

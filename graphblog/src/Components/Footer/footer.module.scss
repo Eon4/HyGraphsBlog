@@ -1,0 +1,34 @@
+
+
+
+footer {
+    background-color: #1c1a1af9;
+    color: #FFFFFF;
+    padding: 40px;
+    margin-top: 60px;
+    border-top: rgb(11, 87, 141);
+    border-radius: 3px;
+    border-style:double;
+
+    p {
+        font-size: 14px;
+        color: #2e2929;
+    }
+
+    h2{
+        font-size: 16px;
+        font-family: 'Star Wars', sans-serif;
+
+        display: center;
+        color: rgb(24, 14, 207);
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+}
+.autoFlow {
+    display: block;
+    // grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); 
+    // align-items: center;
+    gap: 8px;
+}
