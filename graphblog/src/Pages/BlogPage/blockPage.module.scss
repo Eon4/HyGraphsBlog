@@ -1,4 +1,41 @@
-
-.BlockTitle{
+.BlogContainer {
+    text-align: center; /* Center-align the entire container */
+    padding: 20px; /* Add some padding for spacing */
+  }
+  
+  .BlogTitle {
     color: blue;
-}
+  }
+  
+  .NoPosts {
+    font-style: italic;
+    color: gray;
+  }
+
+  .PostTitle{
+    color: pink;
+    font-size:large;
+  }
+  
+  .PostList {
+    list-style-type: none; /* Remove list bullets */
+    padding: 0;
+    display: flex; /* Display posts horizontally */
+    justify-content: center; /* Center-align posts horizontally */
+    flex-wrap: wrap; /* Wrap posts to the next line if they don't fit */
+    gap: 20px; /* Add space between posts */
+  }
+  
+  .PostItem {
+    text-align: center; /* Center-align individual posts */
+  }
+  
+  .PostImage {
+    max-width: 30%; /* Ensure images fit within their containers */
+    border: 2px solid #ccc; /* Add a border around images */
+  }
+  
+  .PostDescription {
+    margin-top: 10px; /* Add space between image and text */
+  }
+  

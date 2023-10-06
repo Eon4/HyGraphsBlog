@@ -6,6 +6,9 @@ query MyBlogPosts {
         url
       }
       description
+      title
+      dateAndTime
+
     }
   }
   
