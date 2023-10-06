@@ -1,0 +1,28 @@
+
+.HomepageContainer {
+    text-align: center; // Center-align the text
+    max-width: 800px; // Adjust the max width as needed
+    margin: 0 auto; // Center the container horizontally
+    padding: 20px; // Add some padding for spacing
+  
+    h2 {
+color: blue;    }
+  
+    p {
+color: pink;    }
+  
+    h3 {
+color: white;      margin-top: 20px; // Add top margin for spacing
+    }
+  
+    .LatestArticlesLink {
+      color: #333; // Text color
+      text-decoration: none;
+      transition: color 0.3s ease-in-out; // Smooth transition for color change on hover
+  
+      &:hover {
+        color: #007bff; // Hover color (blue)
+      }
+    }
+  }
+  
