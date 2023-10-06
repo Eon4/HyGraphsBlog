@@ -4,7 +4,9 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import MainLayout from './Layout/MainLayout';
 import AboutPage from './Pages/About/about';
 import Homepage from './Pages/HomePage/homePage'; 
-import { Gallery } from './Pages/Gallery/gallery'; // Import as a named export
+import { Gallery } from './Pages/Gallery/gallery'; 
+import { Blog } from './Pages/BlogPage/blogPage'; 
+
 
 const queryClient = new QueryClient();
 
@@ -18,7 +20,9 @@ const App = () => {
             element={<MainLayout />}>
             <Route index element={<Homepage />} />
             <Route path="/about" element={<AboutPage />} />
-            <Route path="/gallery" element={<Gallery />} /> {/* Use Gallery as a named import */}
+            <Route path="/gallery" element={<Gallery />} />
+            <Route path="/blogPage" element={<Blog />} />
+
           </Route>
         </Routes>
       </BrowserRouter>

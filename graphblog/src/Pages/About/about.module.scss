@@ -1,0 +1,24 @@
+
+.AboutTex {
+    text-align: center;
+}
+
+.AboutDogandUs {
+    display: flex; /* Use flexbox */
+    flex-direction: column; /* Stack image and text vertically */
+    align-items: center; /* Center horizontally */
+    text-align: center; /* Center text within the container */
+    width: 50%;
+    margin: 0 auto; /* Center the container horizontally on the page */
+  }
+  
+  .AboutDogandUs img {
+    max-width: 100%; 
+    border-radius: 10px;
+  }
+  
+  .AboutDogandUsText {
+    color: rgb(255, 255, 255);
+    margin-top: 20px; /* Add some space between image and text */
+  }
+  
