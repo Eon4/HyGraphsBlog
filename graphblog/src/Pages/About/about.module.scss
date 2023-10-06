@@ -4,12 +4,12 @@
 }
 
 .AboutDogandUs {
-    display: flex; /* Use flexbox */
-    flex-direction: column; /* Stack image and text vertically */
-    align-items: center; /* Center horizontally */
-    text-align: center; /* Center text within the container */
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    text-align: center; 
     width: 50%;
-    margin: 0 auto; /* Center the container horizontally on the page */
+    margin: 0 auto; 
   }
   
   .AboutDogandUs img {
@@ -19,6 +19,6 @@
   
   .AboutDogandUsText {
     color: rgb(255, 255, 255);
-    margin-top: 20px; /* Add some space between image and text */
+    margin-top: 20px;
   }
   

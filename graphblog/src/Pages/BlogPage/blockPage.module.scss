@@ -1,38 +1,38 @@
 .BlogContainer {
-    text-align: center; /* Center-align the entire container */
-    padding: 20px; /* Add some padding for spacing */
+    text-align: center;
+    padding: 20px; 
   }
   
   .BlogTitle {
-    color: blue;
+    color: rgb(255, 255, 255);
   }
 
   .FiltersAndButton {
     display: flex;
     flex-direction: column;
-    align-items: flex-end; // Align elements to the right
-    margin-right: 20px; // Add some right margin for spacing
+    align-items: flex-end; 
+    margin-right: 20px; 
 
     .Filters {
       select.SortingDropdown {
-        background-color: rgb(101, 101, 128); // Use your desired grey color
-        color: greenyellow; // Use your desired text color
-        padding: 8px; // Adjust padding as needed
-        border: none; // Remove the border or style it as desired
-        border-radius: 4px; // Add border-radius for a rounded look
-        font-size: 14px; // Adjust font size as needed
-        margin-bottom: 10px; // Add some bottom margin for spacing
+        background-color:  rgb(251, 197, 96); 
+        color: rgb(0, 0, 0); 
+        padding: 8px; 
+        border: none; 
+        border-radius: 4px; 
+        font-size: 14px;
+        margin-bottom: 10px; 
       }
     }
 
     .LatestPostsButton {
-      background-color: orange; // Use your desired grey color
-      color: green; // Use your desired text color
-      padding: 8px 16px; // Adjust padding as needed
-      border: none; // Remove the border or style it as desired
-      border-radius: 4px; // Add border-radius for a rounded look
-      font-size: 14px; // Adjust font size as needed
-      cursor: pointer; // Add pointer cursor to indicate interactivity
+      background-color: rgb(251, 197, 96); 
+      color: rgb(0, 0, 0);
+      padding: 8px 16px; 
+      border: none; 
+      border-radius: 4px; 
+      font-size: 14px; 
+      cursor: pointer; 
     }
   }
   
@@ -42,29 +42,29 @@
   }
 
   .PostTitle{
-    color: pink;
+    color: rgb(255, 255, 255);
     font-size:large;
   }
   
   .PostList {
-    list-style-type: none; /* Remove list bullets */
+    list-style-type: none; 
     padding: 0;
-    display: flex; /* Display posts horizontally */
-    justify-content: center; /* Center-align posts horizontally */
-    flex-wrap: wrap; /* Wrap posts to the next line if they don't fit */
-    gap: 20px; /* Add space between posts */
+    display: flex; 
+    justify-content: center; 
+    flex-wrap: wrap; 
+    gap: 20px; 
   }
   
   .PostItem {
-    text-align: center; /* Center-align individual posts */
+    text-align: center; 
   }
   
   .PostImage {
-    max-width: 30%; /* Ensure images fit within their containers */
-    border: 2px solid #ccc; /* Add a border around images */
+    max-width: 30%; 
+    border: 2px solid #ccc; 
   }
   
   .PostDescription {
-    margin-top: 10px; /* Add space between image and text */
+    margin-top: 10px; 
   }
   

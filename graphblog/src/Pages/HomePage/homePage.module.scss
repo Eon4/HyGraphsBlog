@@ -1,27 +1,29 @@
 
 .HomepageContainer {
-    text-align: center; // Center-align the text
-    max-width: 800px; // Adjust the max width as needed
-    margin: 0 auto; // Center the container horizontally
-    padding: 20px; // Add some padding for spacing
+    text-align: center; 
+    max-width: 800px; 
+    margin: 0 auto; 
+    padding: 20px; 
   
     h2 {
-color: blue;    }
+color: rgb(166, 166, 166);    }
   
     p {
-color: pink;    }
+color: white;    
+}
   
     h3 {
-color: white;      margin-top: 20px; // Add top margin for spacing
+color: white;      
+margin-top: 20px;
     }
   
     .LatestArticlesLink {
-      color: #333; // Text color
+      color: #666666; 
       text-decoration: none;
-      transition: color 0.3s ease-in-out; // Smooth transition for color change on hover
+      transition: color 0.3s ease-in-out; 
   
       &:hover {
-        color: #007bff; // Hover color (blue)
+        color: #007bff; 
       }
     }
   }

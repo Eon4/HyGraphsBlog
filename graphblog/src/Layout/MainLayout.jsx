@@ -14,7 +14,6 @@ const MainLayout = () => {
         <Navigation />
       </header>
       <main>
-        {/* Include the Outlet to render child routes */}
         <Outlet />
       </main>
       <Footer/>

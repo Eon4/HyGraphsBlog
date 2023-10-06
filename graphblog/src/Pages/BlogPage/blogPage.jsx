@@ -48,7 +48,7 @@ export const Blog = () => {
   const postsToDisplay = displayLatestPosts ? filterLatestPosts() : posts;
   const getLatestPostSnippet = () => {
     if (posts.length > 0) {
-      const latestPost = posts[0]; // Get the latest post
+      const latestPost = posts[0]; // Get the latest post here 
       return (
         <div className={style.LatestPostSnippet}>
           <h3>Latest Article:</h3>
@@ -64,10 +64,11 @@ export const Blog = () => {
 
   return (
     <div className={style.BlogContainer}>
-      <h2 className={style.BlogTitle}>Blog Posts</h2>
+      <h2 className={style.BlogTitle}>The Dog Blog</h2>
       
       <div className={style.FiltersAndButton}>
         <div className={style.Filters}>
+          
           {/* Dropdown menu for sorting */}
           <select onChange={(e) => handleSorting(e.target.value)} className={style.SortingDropdown}>
             <option value="date">Sort by Date</option>

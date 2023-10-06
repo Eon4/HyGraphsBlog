@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import style from '../../Pages/HomePage/homePage.module.scss'; // Make sure to import the correct SCSS module
+import style from '../../Pages/HomePage/homePage.module.scss';
 
 const Homepage = () => {
   return (
