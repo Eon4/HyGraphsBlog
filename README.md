@@ -1,2 +1,0 @@
-# HyGraphsBlog
-assignment with HyGraphs 
